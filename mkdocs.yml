@@ -1,0 +1,6 @@
+site_name: "Buzzword Brewing"
+theme:
+  name: 'material'
+
+pages:
+  - Home: index.md
