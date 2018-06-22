@@ -1,0 +1,14 @@
+{
+    "docs": [
+        {
+            "location": "/", 
+            "text": "Buzzword Brewing\n\n\nWelcome to our brewery!", 
+            "title": "Home"
+        }, 
+        {
+            "location": "/#buzzword-brewing", 
+            "text": "Welcome to our brewery!", 
+            "title": "Buzzword Brewing"
+        }
+    ]
+}
