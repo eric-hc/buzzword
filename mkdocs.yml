@@ -4,3 +4,4 @@ theme:
 
 pages:
   - Home: index.md
+  - Contact: contact.md
