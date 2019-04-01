@@ -1,7 +1,42 @@
 site_name: "Buzzword Brewing"
 theme:
   name: 'material'
+  palette:
+    primary: 'lime'
+    accent: 'lime'
+  
+repo_name: 'github/buzzword'
+repo_url: 'https://github.com/ericcarboni/buzzword'
+copyright: 'Copyright &copy; 2019 Buzzword Brewing'
 
-pages:
+extra:
+  social:
+    - type: 'github'
+      link: 'https://github.com/ericcarboni/buzzword'
+    - type: 'twitter'
+    - type: 'instagram'
+nav:
   - Home: index.md
+  - Brews: brews.md
   - Contact: contact.md
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - admonition
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+  - codehilite:
+      linenums: true
